@@ -1,0 +1,13 @@
+/* style grid */
+.grid {
+    display: flex;
+}
+
+.grid__item {
+    width: calc(100% - (2 * 25px));
+    margin-right: 25px;
+}
+
+.grid__item:last-of-type {
+    margin-right: 0;
+}

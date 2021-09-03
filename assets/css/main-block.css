@@ -1,0 +1,34 @@
+/* style main-block */
+.main-block {
+    position: relative;
+}
+
+.main-block__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.main-block__items {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-block__title {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.main-block__description {
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}

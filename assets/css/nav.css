@@ -1,0 +1,41 @@
+/* style nav */
+.nav {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 60px;
+}
+
+.nav__item:last-of-type {
+    margin-right: 0;
+}
+
+.nav__link {
+    color: #FFFFFF;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.nav__link:before {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #4CAF50;
+    transform: translate3d(101%,0,0);
+    transition: transform .5s cubic-bezier(.86,.13,.12,.86);
+}
+
+.nav__link:hover:before {
+    transform: translate3d(0%,0,0);
+}
+
+.nav__link--active:before {
+    width: 100%;
+    transform: translate3d(0%,0,0);
+}

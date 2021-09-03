@@ -1,0 +1,33 @@
+/* style main-content */
+.main-content {
+
+}
+
+.main-content__item {
+    padding: 130px 250px;
+}
+
+.main-content__item--color--grey {
+    background: #FBFBFB;
+}
+
+.main-content__title {
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.main-content__title:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background: black;
+    width: 45px;
+    content: "";
+}
+
+.main-content__title-text {
+    font-size: 48px;
+    line-height: 71px;
+    color: #252525;
+}
