@@ -10,6 +10,8 @@
 @import "logo.css";
 @import "list.css";
 @import "information.css";
+@import "accordion.css";
+@import "questions.css";
 
 *, :after, :before {
     box-sizing: border-box;
