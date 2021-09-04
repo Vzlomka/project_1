@@ -4,11 +4,11 @@
 }
 
 .main-content__item {
-    padding: 130px 250px;
+    padding: 130px 310px;
 }
 
 .main-content__item--color--grey {
-    background: #FBFBFB;
+    background: var(--color-shadow);
 }
 
 .main-content__title {
@@ -21,7 +21,7 @@
     left: 0;
     bottom: 0;
     height: 2px;
-    background: black;
+    background: var(--color-black);
     width: 45px;
     content: "";
 }
@@ -29,5 +29,5 @@
 .main-content__title-text {
     font-size: 48px;
     line-height: 71px;
-    color: #252525;
+    color: var(--color-light-black);
 }

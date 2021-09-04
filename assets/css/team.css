@@ -16,7 +16,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #FFFFFF;
+    background: var(--color-white);
     opacity: 0.5;
     transform: translateY(66%);
     transition: all .4s ease;
@@ -47,28 +47,28 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    background: black;
+    background: var(--color-black);
     content: "";
     width: 45px;
     height: 2px;
 }
 
 .team__title {
-    color: #252525;
+    color: var(--color-light-black);
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
 }
 
 .team__staff {
-    color: #252525;
+    color: var(--color-light-black);
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
 }
 
 .team__description {
-    color: #252525;
+    color: var(--color-light-black);
     font-size: 12px;
     line-height: 25px;
 }

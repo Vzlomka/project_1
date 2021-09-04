@@ -1,6 +1,6 @@
 /* style service */
 .service {
-    background: #FFFFFF;
+    background: var(--color-white);
     padding: 40px;
     position: relative;
     overflow: hidden;
@@ -27,7 +27,7 @@
 }
 
 .service__link:hover:before {
-    background: #70BF73;
+    background: var(--color-accent);
     transform: translate3d(0%,0,0);
     transition: all .5s ease;
 }
@@ -42,8 +42,8 @@
 .service__logo {
     height: 50px;
     width: 50px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 20px #DBDBDB;
+    background: var(--color-white);
+    box-shadow: 0 0 20px var(--color-shadow);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,7 +58,7 @@
 }
 
 .service__description-text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 25px;
-    letter-spacing: 1.008px;
+    letter-spacing: 1px;
 }

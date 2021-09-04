@@ -2,5 +2,5 @@
 .logo {
     font-size: 36px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: var(--color-white);
 }

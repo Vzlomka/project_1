@@ -7,13 +7,14 @@
 @import "main-block.css";
 @import "main-content.css";
 @import "logo.css";
+@import "root.css";
 
 *, :after, :before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: #5B5858;
+    color: var(--color-light-black);
     list-style: none;
     font-family: 'Oswald', sans-serif;
     -webkit-tap-highlight-color: transparent;
@@ -29,5 +30,5 @@ img {
 
 /* style main */
 .main {
-    background: #F2F2F2;
+    background: var(--color-white);
 }
