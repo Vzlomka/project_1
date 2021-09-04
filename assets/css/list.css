@@ -1,0 +1,33 @@
+.list {
+
+}
+
+.list > li {
+    position: relative;
+    padding-left: 30px;
+    max-width: 300px;
+}
+
+.list > li:before {
+    position: absolute;
+    width: 20px;
+    left: 0;
+    height: 2px;
+    content: "";
+    background: var(--color-light-black);
+    top: 12px;
+}
+
+.list_position_left {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    z-index: 5;
+}
+
+.list_position_right {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    z-index: 3;
+}

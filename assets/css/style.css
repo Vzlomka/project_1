@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import "root.css";
 @import "team.css";
 @import "service.css";
 @import "grid.css";
@@ -7,7 +8,8 @@
 @import "main-block.css";
 @import "main-content.css";
 @import "logo.css";
-@import "root.css";
+@import "list.css";
+@import "information.css";
 
 *, :after, :before {
     box-sizing: border-box;
