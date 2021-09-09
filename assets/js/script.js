@@ -10,7 +10,7 @@ function accordion() {
         item.addEventListener('click', () => {
 
             // В переменную записывает родителя класса .accordion__btn
-            const parent = item.parentNode;
+            const parent = item.closest('.accordion');
 
             /*
             * условный оперватор if else

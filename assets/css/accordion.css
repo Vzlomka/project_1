@@ -18,7 +18,7 @@
     max-height: 0;
 }
 
-.accordion--active > .accordion__list {
+.accordion--active .accordion__list {
     transition: .4s;
     max-height: 300px;
     padding-top: 15px;
